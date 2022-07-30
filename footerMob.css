@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+}
+.footdb {
+  width: 100%;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(279.5deg, #091540 10.12%, #008fff 322.8%), #091540;
+  padding-left: 25px;
+}
+.footinfo {
+  padding-bottom: 18px;
+}
+p {
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+.Title {
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 15px;
+  color: #74c0fc;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #aaaaaa;
+  line-height: 30px;
+}
+a:hover {
+  background-color: whitesmoke;
+  color: #082458;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Title {
+  font-size: 16px;
+  color: #74c0fc;
+  line-height: 35px;
+}
+.Qlinks {
+  padding-bottom: 18px;
+}
+.Qactions {
+  padding-bottom: 18px;
+}
+.contact {
+  padding-bottom: 18px;
+}
+
+.rights {
+  background: linear-gradient(90deg, #0e103d -406.42%, #008fff 100%),
+    linear-gradient(279.5deg, #091540 10.12%, #008fff 322.8%);
+  font-size: 10px;
+  color: whitesmoke;
+  padding: 15px 25px;
+}
+.team {
+  color: yellow;
+}
+
+@media screen and (max-width: 377px) {
+  .footdb {
+    width: 100%;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(279.5deg, #091540 10.12%, #008fff 322.8%),
+      #091540;
+    padding-left: 25px;
+  }
+  img {
+    width: 100px;
+    height: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .footinfo {
+    padding-bottom: 18px;
+  }
+  .footinfo p {
+    padding-right: 30px;
+  }
+  p {
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+  }
+  .Title {
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 15px;
+    color: #74c0fc;
+  }
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #aaaaaa;
+    line-height: 25px;
+  }
+  a:hover {
+    background-color: whitesmoke;
+    color: #082458;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .Title {
+    font-size: 16px;
+    color: #74c0fc;
+    line-height: 35px;
+  }
+  .Qlinks,
+  .Qactions,
+  .contact {
+    padding-bottom: 10px;
+  }
+  #contact {
+    font-size: 10px;
+  }
+  .t1 {
+    padding-right: 25px;
+  }
+  .t2 {
+    padding-right: 5px;
+  }
+  .rights {
+    width: 100%;
+    background: linear-gradient(90deg, #0e103d -406.42%, #008fff 100%),
+      linear-gradient(279.5deg, #091540 10.12%, #008fff 322.8%);
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 15px 25px;
+  }
+  .team {
+    color: yellow;
+  }
+  #rights {
+    color: whitesmoke;
+    padding-right: 10px;
+  }
+}
